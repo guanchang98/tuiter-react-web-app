@@ -185,32 +185,32 @@ Loading a local image:<br/>
 
 <label>Favorite movie genre</label><br/>
 
-<input type="radio" value="COMEDY"
-       name="radio-genre" id="radio-comedy"/>
+<input id="radio-comedy" name="radio-genre"
+       type="radio" value="COMEDY"/>
 <label for="radio-comedy">Comedy</label><br/>
-<input type="radio" value="DRAMA"
-       name="radio-genre" id="radio-drama"/>
+<input id="radio-drama" name="radio-genre"
+       type="radio" value="DRAMA"/>
 <label for="radio-drama">Drama</label><br/>
-<input type="radio" value="SCIFI"
-       name="radio-genre" id="radio-scifi" checked/>
+<input checked id="radio-scifi"
+       name="radio-genre" type="radio" value="SCIFI"/>
 <label for="radio-scifi">Science fiction</label><br/>
-<input type="radio" value="FANTASY"
-       name="radio-genre" id="radio-fantasy"/>
+<input id="radio-fantasy" name="radio-genre"
+       type="radio" value="FANTASY"/>
 <label for="radio-fantasy">Fantasy</label><br/>
 
 <h2>Checkboxes</h2>
 <label>Favorite movie genre:</label><br/>
-<input type="checkbox" value="COMEDY"
-       name="check-genre" id="chkbox-comedy" checked/>
+<input checked id="chkbox-comedy"
+       name="check-genre" type="checkbox" value="COMEDY"/>
 <label for="chkbox-comedy">Comedy</label><br/>
-<input type="checkbox" value="DRAMA"
-       name="check-genre" id="chkbox-drama"/>
+<input id="chkbox-drama" name="check-genre"
+       type="checkbox" value="DRAMA"/>
 <label for="chkbox-drama">Drama</label><br/>
-<input type="checkbox" value="SCIFI"
-       name="check-genre" id="chkbox-scifi" checked/>
+<input checked id="chkbox-scifi"
+       name="check-genre" type="checkbox" value="SCIFI"/>
 <label for="chkbox-scifi">Science fiction</label><br/>
-<input type="checkbox" value="FANTASY"
-       name="check-genre" id="chkbox-fantasy"/>
+<input id="chkbox-fantasy" name="check-genre"
+       type="checkbox" value="FANTASY"/>
 <label for="chkbox-fantasy">Fantasy</label>
 
 <h2>Anchor tag</h2>
@@ -221,5 +221,72 @@ to get dummy text<br/>
 
 Checkout my <a href="other-page.html">other page</a>
 
+<h2>Table of content</h2>
+<a name="top"></a>
+<ul>
+    <li>
+        <a href="#embedding-website">Embedding other websites</a>
+    </li>
+    <li>
+        <a href="#embedding-youtube">Embedding Youtube videos</a>
+    </li>
+    <li>
+        <a href="#embedding-slide">Embedding Google slide</a>
+    </li>
+</ul>
+
+<a name="embedding-website"></a>
+<h2>Embedding other websites</h2>
+<a href="#top">Top</a><br/>
+<iframe height="600px"
+        src="https://reactjs.org/docs/hooks-reference.html"
+        width="800px">
+</iframe>
+
+<a name="embedding-youtube"></a>
+<h2>Embedding YouTube</h2>
+<a href="#top">Top</a><br/>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/7CZTLogln34"
+        title="YouTube video player"
+        width="560">
+</iframe>
+
+<a name="embedding-slide"></a>
+<h2>Embedding Google slides</h2>
+<a href="#top">Top</a><br/>
+<iframe allowfullscreen="true"
+        height="400"
+        mozallowfullscreen="true"
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQoIYM2gXzRLKt4q5D2-ZahG7zvVcAipkRvj5k9GVLiGDs8NPlLpO3Q08cPUKQbqhL6g8aZp1ZJSwrw/embed?start=false&loop=false&delayms=3000"
+        webkitallowfullscreen="true"
+        width="600">
+</iframe>
+
+<h2>Drawing rectangles</h2>
+<svg width="300" height="100">
+    <rect width="300" height="100"
+          style="fill: #61dafb;
+          stroke-width:10;
+          stroke:rgb(255,0,0)"/>
+</svg>
+
+<h2>Drawing circles</h2>
+<svg width="300" height="100">
+    <circle cx="80" cy="50" r="40"
+            fill="cornflowerblue";
+            stroke-width="5";
+            stroke="firebrick"/>
+</svg>
+
+<h2>Drawing polygons</h2>
+
+<svg width="300" height="200">
+    <polygon points="100,10 40,198 190,78 10,78 160,198"
+             style="fill:lime; stroke:purple; stroke-width:5; fill-rule:evenodd;" />
+</svg>
 </body>
 </html>
