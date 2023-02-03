@@ -1,36 +1,13 @@
-.wd-bg-color-black {
-    background-color: black;
-}
-
 .wd-bg-color-darkgray {
     background-color: darkgray;
-}
-
-.wd-fg-color-other-link {
-    color: rgb(110, 118, 125);
 }
 
 .wd-fg-color-highlight-link {
     color: rgb(29, 161, 242);
 }
 
-.wd-fg-color-white {
-    color: white;
-}
-
 .wd-fg-color-border {
     color: rgb(47, 51, 54);
-}
-
-.wd-border {
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-    border-style: solid;
-    margin-left: 16px;
-}
-
-.wd-offset {
-    margin-left: 16px;
 }
 
 .wd-search-bar {
@@ -43,15 +20,12 @@
 
 .wd-search-settings-img {
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 12px;
     height: 20px;
     width: 20px;
 }
 
-.wd-none-decoration {
-    text-decoration: none;
-}
 
 .wd-link-font {
     font-size: 15px;
@@ -86,22 +60,9 @@
     left: 50%;
 }
 
-.wd-text-font-13 {
-    font-size: 13px;
-}
-
 a {
     color: rgb(110, 118, 125);
     font-size: 15px;
-}
-
-.wd-float-right {
-    float: right;
-    margin-right: 16px;
-}
-
-.wd-float-left {
-    float: left;
 }
 
 .wd-img-default {
@@ -111,11 +72,4 @@ a {
     margin-right: 16px;
 }
 
-.wd-flow-hidden {
-    overflow:hidden
-}
 
-.wd-padding {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}

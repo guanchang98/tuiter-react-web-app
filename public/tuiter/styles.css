@@ -1,0 +1,52 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-fg-color-other-link {
+    color: rgb(110, 118, 125);
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-border {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 16px;
+}
+
+.wd-offset {
+    margin-left: 16px;
+}
+
+.wd-text-font-13 {
+    font-size: 13px;
+}
+
+.wd-text-font-15 {
+    font-size: 15px;
+}
+
+.wd-padding {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-float-right {
+    float: right;
+    margin-right: 16px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-flow-hidden {
+    overflow:hidden
+}
+
+.wd-none-decoration {
+    text-decoration: none;
+}

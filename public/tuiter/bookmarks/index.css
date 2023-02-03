@@ -1,0 +1,74 @@
+.wd-text-font-20 {
+    font-size: 20px;
+}
+
+.wd-three-dot-size {
+    width: 20px;
+    height: 20px;
+}
+
+.wd-padding-left-16 {
+    padding-left: 16px;
+}
+
+.wd-padding-left-12 {
+    padding-left: 12px;
+}
+
+.wd-padding-left-70 {
+    padding-left: 70px;
+}
+
+
+.wd-avatar-size {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-flex-container {
+    display: flex;
+}
+
+.wd-flex-text {
+    flex: 48px;
+}
+
+.wd-flex-child {
+    flex: 100%;
+}
+
+.wd-max-width-506 {
+    max-width: 506px;
+}
+
+.wd-absolute-right {
+    position: absolute;
+    right: 20px;
+}
+
+.wd-wide-image-size {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-text-under-image {
+    width: 478px;
+    border-color: rgb(110, 118, 125);
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 12px;
+    margin-top: -4px;
+}
+
+.wd-icon-size {
+    width: 20px;
+    height: 20px;
+}
+
+.wd-fg-color-red {
+    color: #F44336;
+}
