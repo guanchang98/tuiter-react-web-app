@@ -1,0 +1,151 @@
+.wd-width-25 {
+    position: relative;
+    left: -3.2px;
+    padding-left: 0px;
+    width: 20px;
+}
+
+.form{
+    position: relative;
+}
+
+.font-size-2em {
+    font-size: 2em;
+}
+
+.form .fa-search{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #657786;
+}
+.font-size-one-half-em {
+    font-size: 1.5em;
+}
+
+.border-left-right {
+    border-left: #E1E8ED 1px solid;
+    border-right: #E1E8ED 1px solid;
+}
+
+.fg-color-darkgray {
+    color: darkgray;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.form-input{
+    height: 45px;
+    text-indent: 33px;
+    border-radius: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child-80per {
+    flex: 80%;
+}
+
+.flex-child-20per {
+    flex: 20%;
+}
+
+.flex-child-75per {
+    flex: 75%;
+}
+
+.flex-child-85per {
+    flex: 85%;
+}
+
+
+.flex-child-15per {
+    flex: 15%;
+}
+
+.flex-child-button {
+    flex: 15%;
+}
+
+.flex-child-text {
+    flex: 70%
+}
+
+.flex-child-icon {
+    flex: 15%
+}
+
+.image-size {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.icon-size {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.border-radius-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.border-radius-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.borderless {
+    border: 0 none;
+}
+
+.bg-extra-lightgray {
+    background-color: #E1E8ED;
+}
+
+.bg-lightgray {
+    background-color: #AAB8C2;
+}
+
+.fg-lightgray {
+    color: #AAB8C2;
+}
+
+.bg-extra-extra-lightgray {
+    background-color: #F5F8FA;
+}
+
+.fg-twitter-blue {
+    color: #1DA1F2;
+}
+
+.bg-twitter-blue {
+    background-color: #1DA1F2;
+}
+
+.bottom-border-twitter-blue {
+    border-bottom: #1DA1F2;
+    border-bottom-style: solid;
+    border-width: 5px;
+}
+
+.more-size {
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+}
