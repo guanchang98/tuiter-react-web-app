@@ -8,7 +8,7 @@ const ExploreComponent = () => {
                     <div class="row mb-3">
           <div class="form col-xxl-11 col-xl-10 col-lg-9 col-md-8 col-sm-7 col-6">
             <i class="fa fa-search"></i>
-            <input class="form-control form-input" placeholder="Search Tuit" type="text">
+            <input class="form-control form-input rounded-pill" placeholder="Search Tuit" type="text">
           </div>
           <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-6">
             <i class="fa fa-cog fa-2x text-primary ms-4 mt-1"></i>
