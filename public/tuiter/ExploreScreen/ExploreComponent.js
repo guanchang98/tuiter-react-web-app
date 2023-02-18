@@ -4,7 +4,7 @@ const ExploreComponent = () => {
     return (
         `
             <div class="container">
-                <div class="row mb-3">
+                <div class="row">
                     <div class="row mb-3">
           <div class="form col-xxl-11 col-xl-10 col-lg-9 col-md-8 col-sm-7 col-6">
             <i class="fa fa-search"></i>

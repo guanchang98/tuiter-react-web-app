@@ -76,3 +76,15 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+.fg-white {
+    color: white;
+}
+
+.w-125 {
+    width: 125%;
+}
+
+.border-bottom {
+    border-bottom: darkgray 1px solid;
+}
