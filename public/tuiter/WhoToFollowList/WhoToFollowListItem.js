@@ -4,7 +4,7 @@ const WhoToFollowListItem = (who) => {
             <div class="list-group-item list-group-item-action">
         <div class="flex-container">
           <div class="flex-child-icon">
-            <img class="icon-size" src=${who.avatarIcon}>
+            <img class="icon-size" src=${who.avatarIcon}/>
           </div>
           <div class="flex-child-text">
                         <span>
