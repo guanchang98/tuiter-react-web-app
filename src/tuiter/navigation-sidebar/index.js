@@ -3,21 +3,18 @@ import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
-    // const {pathName} = useLocation();
-    // console.log("pathName is: ",pathName);
-    // const paths = pathName.split('/');
-    // console.log("path is: ",paths);
-    // const active = paths[2];
-    const active = 'home';
+    const {pathname} = useLocation();
+    console.log("pathName is: ",pathname);
+    const paths = pathname.split('/');
+    console.log("path is: ",paths);
+    const active = paths[2];
     return (
         <div className="list-group mb-3">
             <a className="list-group-item list-group-item-action">Tuiter</a>
-            <Link to="/tuiter/home" className={`list-group-item list-group-item-action
-                    ${active === 'home'?'active':''}`}>
+            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 Home
             </Link>
-            <Link to="/tuiter/explore" className={`list-group-item list-group-item-action
-                    ${active === 'explore'?'active':''}`}>
+            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
                 Explore
             </Link>
             <Link to="/" className="list-group-item">
