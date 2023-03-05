@@ -1,0 +1,24 @@
+[
+  {
+    "avatar":"avatar-elon-musk.jpeg",
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "23h",
+    "tweetContent": "Amazing show about @Inspiration4x mission!",
+    "image": "../../images/twitter-elon-musk.jpeg",
+    "commentCount": "4.2K",
+    "retweetCount": "3.5K",
+    "likeCount": "37.5K"
+  },
+  {
+    "avatar":"../../images/avatar-new-york-post.jpeg",
+    "userName": "New York Post",
+    "handle": "nypost",
+    "time": "23h",
+    "tweetContent": "Grimes seen reading Karl Marx following split with world's richest man Elon Musk trib.al/nx2Gfaq",
+    "image": "twitter-New-York-Post.jpeg",
+    "commentCount": "965",
+    "retweetCount": "2.4K",
+    "likeCount": "4K"
+  }
+]
