@@ -4,9 +4,7 @@ import {useLocation} from "react-router";
 
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
-    console.log("pathName is: ",pathname);
     const paths = pathname.split('/');
-    console.log("path is: ",paths);
     const active = paths[2];
     return (
         <div className="list-group mb-3">
